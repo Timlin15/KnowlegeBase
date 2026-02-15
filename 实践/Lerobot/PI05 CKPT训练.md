@@ -158,3 +158,10 @@ pip install wandb
 wandb login
 ```
 
+## 进行测试
+首先要设置渲染后端，对于无桌面服务器来说是必须的，同时安装在LIBERO上测试所需依赖：
+```bash
+export MUJOCO_GL=egl
+pip install -e ".[libero]"
+```
+然后使用`lerobot.eval`这个脚本
