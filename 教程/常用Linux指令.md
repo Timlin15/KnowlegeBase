@@ -54,6 +54,12 @@ docker run \
 	nginx
 ```
 
+## Ghostty适配
+部分应用不认识Ghostty这个终端，需要export一个其他适配的终端。
+```bash
+export TERM=xterm-256color
+```
+
 ## 详细解析
 
 ### curl

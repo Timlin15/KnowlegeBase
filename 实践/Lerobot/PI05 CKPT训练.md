@@ -65,9 +65,13 @@ tmux new -s lerobot
 用
 ```bash
 /mnt/data/linjianqi/mihomo -d /mnt/data/linjianqi/mihomo-config
+# 或
+./mihomo -d ./mihomo-config
+
 
 # 然后修改指令运行的端口
-export http_proxy=http://127.0.0.1:7890 export https_proxy=http://127.0.0.1:7890
+export http_proxy=http://127.0.0.1:7890 
+export https_proxy=http://127.0.0.1:7890
 
 # 不用时使用指令
 unset http_proxy https_proxy
@@ -102,8 +106,24 @@ curl -X PUT http://127.0.0.1:19090/proxies/%F0%9F%9A%80%20%E8%8A%82%E7%82%B9%E9%
 ![59f51f4ff5cdd936822dc23593f32711.png](https://typora-1344509263.cos.ap-guangzhou.myqcloud.com/markdown/20260214215709870.png)
 
 ## 配置环境
-正常安装即可，首先用
+正常安装即可，首先创建conda环境，此处用3.10版本的Python，然后安装依赖。注意在存储非常紧张的情况下（这貌似还蛮常见的），需要重新指定conda的安装区域和安装缓存。
 ```Bash
+conda create -n lerobot python=3.10
+# 可以通过 -p 指定路径，此时不可指定名字
+# 在 data1 创建一个新的缓存目录
+mkdir -p /mnt/data1/linjianqi/conda_pkgs
+# 修改 conda 配置，把这个路径设为首选缓存路径
+conda config --add pkgs_dirs /mnt/data1/linjianqi/conda_pkgs
+# 清理缓存
+conda clean --all
+# 下载
+conda create -p /mnt/data1/linjianqi/conda/lerobot python=3.10
+# 注意启动环境也要打绝对路径
+conda activate /mnt/data1/linjianqi/conda/lerobot
+```
+
+
+```
 pip install -r requirements-ubuntu.txt
 ```
 安装lerobot依赖，然后使用
@@ -130,4 +150,11 @@ git lfs install
 git clone https://huggingface.co/lerobot/pi05_base
 ```
 安装PI05的开源权重
+
+### 安装wandb
+直接使用pip安装然后login即可
+```
+pip install wandb
+wandb login
+```
 
