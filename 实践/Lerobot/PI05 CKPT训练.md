@@ -1,0 +1,133 @@
+本文档计划从简单到详细记录在PI05的一个checkpoint上进行训练中遇到的各种问题等。
+## 规划
+首先的问题是，任务是什么？训练集哪里来？task的质量决定了训练和方法的价值。由于本次实践的目的是熟悉Lerobot的训练脚本，看有什么潜在的坑，所以采取简单的Libero作为测试项目，并且使用社区开源数据集进行测试。目的是学习掌握
+- [ ]  配置wandb，观察训练期间的loss等数据
+- [ ] 打印一个完整 batch 的所有 key、shape、数值范围 
+- [ ] 可视化归一化前后的 action 分布（画直方图） 
+- [ ] 在 forward 里 print flow matching 的 timestep 采样分布 
+- [ ] 比冻结/不冻结 VLM 的训练曲线和 eval 成功率 
+- [ ] 记录不同 checkpoint 步数的 LIBERO 各子任务成功率 
+- [ ] 用相同 checkpoint 不同 prompt 跑推理，观察动作差异 
+- [ ] 修改 num_steps（flow matching 解码步数）看推理速度和质量的 trade-off
+
+## 遇到的问题
+首先就是git clone不了，机房没有外网环境，解决办法是在本机clone一遍后用
+1. scp传输
+
+   ```bash
+   # 本地 → 远程
+   scp file.txt user@host:/path/to/dest/
+   
+   # 远程 → 本地
+   scp user@host:/path/to/file.txt ./local/
+   
+   # 传输整个目录（加 -r）
+   scp -r my_folder/ user@host:/path/to/dest/
+   ```
+
+2. rsync传输，更优，支持增量传输
+
+   ```bash
+   # 同步目录
+   rsync -avz my_folder/ user@host:/path/to/dest/
+   
+   # 加 --progress 显示进度
+   rsync -avz --progress file.txt user@host:/path/
+   
+   # 可以排除.git文件夹中的pack文件，减少传输时间
+   rsync -avz --progress ~/lerobot/ A100-36.163.20.107:/mnt/data/linjianqi/lerobot/
+   ```
+
+搞定后先是下载环境：
+```Bash
+conda create -y -n lerobot python=3.10 && conda activate lerobot
+pip install -r requirement-ubuntu.txt -i https://mirrors.ivolces.com/pypi/simple
+pip install -e ".[pi]"
+```
+其中由于是安装配置文件，所以要加上`-r`的参数。同时使用镜像源加速。
+
+## 使用mihomo获得外网环境
+由于使用镜像源太过麻烦，所以打算直接使用clash内核mihomo以CLI形式获得外网环境。
+由于没有sudo权限，下载二进制压缩包版本`.gz`结尾。传到主机后使用
+```bash
+gunzip mihomo-linux-amd64-v1.19.20.gz 
+chmod +x mihomo-linux-amd64-v1.19.20 
+mv mihomo-linux-amd64-v1.19.20 mihomo 
+mkdir -p mihomo-config
+```
+这几个命令解压，赋予权限，重命名以及创建配置文件夹。再将本机的yaml配置文件上传到服务器。
+创建一个tmux 窗口，由于不认识ghostty终端，需要设置环境变量。
+```bash
+export TERM=xterm-256color
+tmux new -s lerobot
+# tmux a -t lerobot 重新进入section
+```
+用
+```bash
+/mnt/data/linjianqi/mihomo -d /mnt/data/linjianqi/mihomo-config
+
+# 然后修改指令运行的端口
+export http_proxy=http://127.0.0.1:7890 export https_proxy=http://127.0.0.1:7890
+
+# 不用时使用指令
+unset http_proxy https_proxy
+```
+即可开启mihomo。
+可以使用`set -g mouse on`来开启鼠标滚动。
+```Bash
+(base) /mnt/data/linjianqi$ curl -I https://github.com
+HTTP/2 200
+date: Sat, 14 Feb 2026 08:39:50 GMT
+```
+成功。
+之后就是正常进行操作了。
+
+对于VSCode，则需要用`Ctrl+Shift+P`输入`Preferences: Open Remote Settings (SSH)`后加入
+```json
+{
+  "terminal.integrated.env.linux": {
+    "http_proxy": "http://127.0.0.1:7890",
+    "https_proxy": "http://127.0.0.1:7890"
+  }
+}
+```
+如果其他用户占用了改端口，可以在配置文件和export进来的端口中修改再启动。
+
+用以下命令切换节点：
+```bash
+curl -X PUT http://127.0.0.1:19090/proxies/%F0%9F%9A%80%20%E8%8A%82%E7%82%B9%E9%80%89%E6%8B%A9 \
+  -H "Content-Type: application/json" \
+  -d '{"name":"🇨🇳 台湾 01"}'
+```
+![59f51f4ff5cdd936822dc23593f32711.png](https://typora-1344509263.cos.ap-guangzhou.myqcloud.com/markdown/20260214215709870.png)
+
+## 配置环境
+正常安装即可，首先用
+```Bash
+pip install -r requirements-ubuntu.txt
+```
+安装lerobot依赖，然后使用
+```Bash
+pip install -e ".[pi]"
+```
+安装PI05所需的依赖。
+
+| Checkpoint                      | 用途                                   | 模型大小   |
+| ------------------------------- | -------------------------------------- | ---------- |
+| `lerobot/pi05_base`             | 基础预训练模型，用于微调到自定义数据集 | ~4B params |
+| `lerobot/pi05_libero_base`      | 在 LIBERO 上继续预训练的基础模型       | ~4B params |
+| `lerobot/pi05_libero_finetuned` | 在 LIBERO 上微调好的模型，可直接评估   | ~4B params |
+然后用
+```bash
+# 用 huggingface-cli 或 hf download
+huggingface-cli download lerobot/pi05_base
+# 如果不行可以使用国内镜像源
+export HF_ENDPOINT=https://hf-mirror.com
+hf download lerobot/pi05_base
+
+# 或 git clone
+git lfs install
+git clone https://huggingface.co/lerobot/pi05_base
+```
+安装PI05的开源权重
+
