@@ -164,4 +164,6 @@ wandb login
 export MUJOCO_GL=egl
 pip install -e ".[libero]"
 ```
+其中在配置环境的时候遇到了严重的
+
 然后使用`lerobot.eval`这个脚本
