@@ -164,5 +164,27 @@ wandb login
 export MUJOCO_GL=egl
 pip install -e ".[libero]"
 ```
-其中在配置环境的时候遇到了严重的环境问题，主要出在LIBERO环境冲突，主要原因是下载LIBERO环境的时候没有在`pyproject.toml`中查看包的版本，而是去谷歌随便搜了个环境下载，这导致了严重的版本冲突，无法启动脚本，见[[eval.sh 环境版本冲突问题诊断与修复总结]]
+其中在配置环境的时候遇到了严重的环境问题，主要出在LIBERO环境冲突，主要原因是下载LIBERO环境的时候没有在`pyproject.toml`中查看包的版本，而是去谷歌随便搜了个环境下载，这导致了严重的版本冲突，无法启动脚本，见[[eval.sh 环境版本冲突问题诊断与修复总结]]。
+同时，在使用LIBERO这个评测方案的时候也面临许多问题，包括：
+1. LIBERO摄像头数量和PI05所需摄像头数量不一致，需要将一个输入摄像头用mask填充
+2. LIBERO输出键名和PI05接受键名不一致
+
+| 实际含义     | libero 输出的键名         | pi05 期望的键名                      |
+| ------------ | ------------------------- | ------------------------------------ |
+| 主视角摄像头 | observation.images.image  | observation.images.base_0_rgb        |
+| 手腕摄像头   | observation.images.image2 | observation.images.right_wrist_0_rgb |
+
 然后使用`lerobot.eval`这个脚本测出
+```Bash
+lerobot-eval \
+	--policy.path=../pi05_base \
+	--policy.n_action_steps=10 \
+	--env.type=libero \
+	--env.task=libero_10 \
+	--eval.batch_size=1 \
+	--eval.n_episodes=10 \
+	--output_dir=./eval_logs/pi05_libero10 \
+	--env.max_parallel_tasks=1 \
+	--policy.empty_cameras=1 \
+	--rename_map='{"observation.images.image": "observation.images.base_0_rgb", "observation.images.image2": "observation.images.right_wrist_0_rgb"}'
+```

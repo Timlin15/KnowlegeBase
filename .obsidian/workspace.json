@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -249,11 +249,12 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "8369c5627c45baeb",
+  "active": "550111bd1dbc634d",
   "lastOpenFiles": [
-    "实践/Lerobot/PI05 CKPT训练.md",
-    "通天代来了.md",
     "实践/Lerobot/eval.sh 环境版本冲突问题诊断与修复总结.md",
+    "实践/Lerobot/PI05 CKPT训练.md",
+    "未命名.base",
+    "通天代来了.md",
     "实践/Openclaw部署.md",
     "实践/Lerobot/PI05建模.md",
     "元学习.md",
@@ -269,7 +270,6 @@
     "sshUtils",
     "教程/BBdown--下载B站视频脚本.md",
     "2026-02-14.md",
-    "未命名.base",
     "未命名 1.base",
     "模型知识",
     "周记/2026/04-第四周.md",
@@ -286,7 +286,6 @@
     "教程",
     "论文/双臂大模型/pi*0.6.md",
     "实践/Lerobot",
-    "强化学习/CS285/Policy Gradient.md",
     "周记/Pasted image 20250929172951.png",
     "周记/833d79998a99d3116eb4de1491ada5e.png",
     "CS336/Pasted image 20250916224623.png",

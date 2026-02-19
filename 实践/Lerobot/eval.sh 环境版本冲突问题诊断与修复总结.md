@@ -1,5 +1,4 @@
-# eval.sh 环境版本冲突问题诊断与修复总结
-
+> 本文完全由Claude Opus4.5撰写
 ## 问题描述
 
 运行 `./eval.sh` 时出现环境版本冲突，脚本无法正常执行。
@@ -16,7 +15,7 @@
 - 环境中以 editable 模式安装了原始的 `libero==0.1.0`（来源：`/mnt/data1/linjianqi/LIBERO`）
 - 但 lerobot 项目实际需要的是 HuggingFace 维护的 `hf-libero>=0.1.3,<0.2.0`（见 `pyproject.toml` 第 165 行）
 - 原始 `libero` 包的 editable install 机制已损坏：`__editable___libero_0_1_0_finder.py` 中的 `MAPPING` 字典为空，导致 Python 无法找到 `libero` 模块
-- 原始 `libero` 包依赖极度过时的版本（numpy==1.22.4, transformers==4.21.1, gym==0.25.2），与 lerobot 的依赖严重冲突
+- 原始 `libero` 包依赖极度过时的版本（numpy\==1.22.4, transformers\==4.21.1, gym\==0.25.2），与 lerobot 的依赖严重冲突
 
 **解决方法**：
 ```bash
@@ -72,7 +71,7 @@ ln -s /mnt/data1/linjianqi/LIBERO/libero/libero/assets \
 
 ---
 
-## 第二轮修复（2026-02-19）
+## 第二轮修复
 
 在解决上述环境版本冲突后，再次运行 `./eval.sh` 时遇到了新的问题。输出中有大量 EGL 相关的错误日志，但经分析 **EGL 错误并非真正的致命错误**。
 
