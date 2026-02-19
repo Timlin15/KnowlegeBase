@@ -177,7 +177,7 @@ pip install -e ".[libero]"
 然后使用`lerobot.eval`这个脚本测出
 ```Bash
 lerobot-eval \
-	--policy.path=../pi05_base \
+	--policy.path=lerobot/pi05_base \
 	--policy.n_action_steps=10 \
 	--env.type=libero \
 	--env.task=libero_10 \
