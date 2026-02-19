@@ -164,6 +164,5 @@ wandb login
 export MUJOCO_GL=egl
 pip install -e ".[libero]"
 ```
-其中在配置环境的时候遇到了严重的
-
-然后使用`lerobot.eval`这个脚本
+其中在配置环境的时候遇到了严重的环境问题，主要出在LIBERO环境冲突，主要原因是下载LIBERO环境的时候没有在`pyproject.toml`中查看包的版本，而是去谷歌随便搜了个环境下载，这导致了严重的版本冲突，无法启动脚本，见[[eval.sh 环境版本冲突问题诊断与修复总结]]
+然后使用`lerobot.eval`这个脚本测出
