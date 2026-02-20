@@ -168,15 +168,16 @@ pip install -e ".[libero]"
 同时，在使用LIBERO这个评测方案的时候也面临许多问题，包括：
 1. LIBERO摄像头数量和PI05所需摄像头数量不一致，需要将一个输入摄像头用mask填充
 2. LIBERO输出键名和PI05接受键名不一致
-但是实际上好像可以由lerobot的
+这是因为pi05_base这个权重自身导致的。如果切换到pi05_libero_finetuned这个权重就可以测出80%左右的成功率了。也就是这次训练的目标是用训练和微调解决这两个问题
 
 | 实际含义     | libero 输出的键名         | pi05 期望的键名                      |
 | ------------ | ------------------------- | ------------------------------------ |
 | 主视角摄像头 | observation.images.image  | observation.images.base_0_rgb        |
 | 手腕摄像头   | observation.images.image2 | observation.images.right_wrist_0_rgb |
 
-然后使用`lerobot.eval`这个脚本测出
+然后使用`lerobot.eval`这个脚本测试会显示bug。
 ```Bash
+export MUJOCO_GL=egl
 lerobot-eval \
 	--policy.path=lerobot/pi05_base \
 	--policy.n_action_steps=10 \
@@ -186,6 +187,29 @@ lerobot-eval \
 	--eval.n_episodes=10 \
 	--output_dir=./eval_logs/pi05_libero10 \
 	--env.max_parallel_tasks=1 \
-	--policy.empty_cameras=1 \
-	--rename_map='{"observation.images.image": "observation.images.base_0_rgb", "observation.images.image2": "observation.images.right_wrist_0_rgb"}'
 ```
+```bash
+Traceback (most recent call last):
+  File "/mnt/data1/linjianqi/conda/lerobot/bin/lerobot-eval", line 10, in <module>
+    sys.exit(main())
+  File "/mnt/data1/linjianqi/lerobot/src/lerobot/scripts/lerobot_eval.py", line 809, in main
+    eval_main()
+  File "/mnt/data1/linjianqi/lerobot/src/lerobot/configs/parser.py", line 233, in wrapper_inner
+    response = fn(cfg, *args, **kwargs)
+  File "/mnt/data1/linjianqi/lerobot/src/lerobot/scripts/lerobot_eval.py", line 528, in eval_main
+    policy = make_policy(
+  File "/mnt/data1/linjianqi/lerobot/src/lerobot/policies/factory.py", line 526, in make_policy
+    validate_visual_features_consistency(cfg, features)
+  File "/mnt/data1/linjianqi/lerobot/src/lerobot/policies/utils.py", line 249, in validate_visual_features_consistency
+    raise_feature_mismatch_error(provided_visuals, expected_visuals)
+  File "/mnt/data1/linjianqi/lerobot/src/lerobot/policies/utils.py", line 214, in raise_feature_mismatch_error
+    raise ValueError(
+ValueError: Feature mismatch between dataset/environment and policy config.
+- Missing features: ['observation.images.base_0_rgb', 'observation.images.left_wrist_0_rgb', 'observation.images.right_wrist_0_rgb']
+- Extra features: ['observation.images.image', 'observation.images.image2']
+
+Please ensure your dataset and policy use consistent feature names.
+If your dataset uses different observation keys (e.g., cameras named differently), use the `--rename_map` argument, for example:
+  --rename_map='{"observation.images.left": "observation.images.camera1", "observation.images.top": "observation.images.camera2"}'
+```
+这会显示键名不一致的问题，采用他推荐的reanem_map试试看
