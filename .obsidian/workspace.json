@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "备忘录/ssh&远程桌面.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ssh&远程桌面"
+              "title": "index"
             }
           }
         ],
@@ -235,8 +235,9 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "4d6d3168432dafd0",
+  "active": "550111bd1dbc634d",
   "lastOpenFiles": [
+    "备忘录/ssh&远程桌面.md",
     "index.md",
     "实践/Lerobot/PI05 CKPT训练.md",
     "quartz/public/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/实践/Lerobot/Lerobot-Policy抽象基类-og-image.webp",
@@ -281,7 +282,6 @@
     "quartz/node_modules/hast-util-to-text/node_modules/@types/unist/README.md",
     "quartz/node_modules/mdast-util-from-markdown/node_modules/@types/unist/README.md",
     "quartz/node_modules/hast-util-to-jsx-runtime/node_modules/vfile-message/readme.md",
-    "quartz/node_modules/hast-util-to-jsx-runtime/node_modules/unist-util-stringify-position/readme.md",
-    "quartz/node_modules/linebreak/node_modules/base64-js/README.md"
+    "quartz/node_modules/hast-util-to-jsx-runtime/node_modules/unist-util-stringify-position/readme.md"
   ]
 }
