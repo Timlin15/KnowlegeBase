@@ -50,7 +50,21 @@
             }
           },
           {
-            "id": "550111bd1dbc634d",
+            "id": "2e015ac2789ee985",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "89e5a9496d24db18",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -235,15 +249,19 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "c62a30fd5e59a4f4",
+  "active": "2e015ac2789ee985",
   "lastOpenFiles": [
+    "备忘录/使用quartz直接将obsidian库转为博客.md",
+    "index.md",
+    "备忘录/ssh&远程桌面.md",
+    "备忘录/BBdown--下载B站视频脚本.md",
+    "备忘录/常用Linux指令.md",
+    "周记/2025/10.27-11.2.md",
     "周记/2025/9.22-9.28.md",
     "实践/Lerobot/eval.sh 环境版本冲突问题诊断与修复总结.md",
     "周记/2025",
-    "index.md",
     "碎碎念",
     "index.md.tmp.195002.1771682315900",
-    "备忘录/ssh&远程桌面.md",
     "实践/Lerobot/PI05 CKPT训练.md",
     "quartz/public/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/实践/Lerobot/Lerobot-Policy抽象基类-og-image.webp",
     "quartz/public/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/备忘录/通天代来了-og-image.webp",
@@ -278,10 +296,6 @@
     "quartz/node_modules/hast-util-to-jsx-runtime/node_modules/property-information/readme.md",
     "quartz/node_modules/hast-util-to-html/node_modules/property-information/readme.md",
     "quartz/node_modules/hast-util-from-html/node_modules/unist-util-stringify-position/readme.md",
-    "quartz/node_modules/hast-util-from-html/node_modules/vfile-message/readme.md",
-    "quartz/node_modules/hast-util-to-html/node_modules/@types/unist/README.md",
-    "quartz/node_modules/hast-util-to-jsx-runtime/node_modules/@types/unist/README.md",
-    "quartz/node_modules/hast-util-to-text/node_modules/@types/unist/README.md",
-    "quartz/node_modules/mdast-util-from-markdown/node_modules/@types/unist/README.md"
+    "quartz/node_modules/hast-util-from-html/node_modules/vfile-message/readme.md"
   ]
 }
