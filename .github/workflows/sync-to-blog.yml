@@ -1,10 +1,9 @@
 name: Sync to Quartz Blog
-
 on:
   push:
     branches: [main]
     paths-ignore:
-      - '私密/**'  # 私密文件夹变化不触发
+      - '私密/**'
 
 jobs:
   sync:
@@ -22,17 +21,16 @@ jobs:
           token: ${{ secrets.QUARTZ_PAT }}
           path: quartz
 
-    - name: Sync content
-            run: |
-            # 删掉 symlink 或旧目录
-            rm -rf quartz/content
-            mkdir -p quartz/content
-            rsync -av \
-                --exclude '私密/' \
-                --exclude '.obsidian/' \
-                --exclude '.git/' \
-                --exclude '.gitignore' \
-                vault/ quartz/content/
+      - name: Sync content
+        run: |
+          rm -rf quartz/content
+          mkdir -p quartz/content
+          rsync -av \
+            --exclude '私密/' \
+            --exclude '.obsidian/' \
+            --exclude '.git/' \
+            --exclude '.gitignore' \
+            vault/ quartz/content/
 
       - name: Push to Quartz repo
         run: |
