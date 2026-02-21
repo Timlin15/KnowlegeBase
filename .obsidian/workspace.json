@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -235,10 +235,11 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "550111bd1dbc634d",
+  "active": "c62a30fd5e59a4f4",
   "lastOpenFiles": [
-    "备忘录/ssh&远程桌面.md",
     "index.md",
+    "index.md.tmp.195002.1771682315900",
+    "备忘录/ssh&远程桌面.md",
     "实践/Lerobot/PI05 CKPT训练.md",
     "quartz/public/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/实践/Lerobot/Lerobot-Policy抽象基类-og-image.webp",
     "quartz/public/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/备忘录/通天代来了-og-image.webp",
@@ -259,7 +260,6 @@
     "quartz/public/论文/双臂大模型/pi0.5.html",
     "quartz/public/论文/双臂大模型/pi*0.6.html",
     "quartz/public/论文/双臂大模型/RoboTwin2.0.html",
-    "quartz/public/论文/双臂大模型/H-RDT概述.html",
     "quartz/node_modules/xmldom-sre/readme.md",
     "quartz/node_modules/fetch-ponyfill/node_modules/node-fetch/README.md",
     "quartz/node_modules/fetch-ponyfill/node_modules/node-fetch/LICENSE.md",
@@ -281,7 +281,6 @@
     "quartz/node_modules/hast-util-to-jsx-runtime/node_modules/@types/unist/README.md",
     "quartz/node_modules/hast-util-to-text/node_modules/@types/unist/README.md",
     "quartz/node_modules/mdast-util-from-markdown/node_modules/@types/unist/README.md",
-    "quartz/node_modules/hast-util-to-jsx-runtime/node_modules/vfile-message/readme.md",
-    "quartz/node_modules/hast-util-to-jsx-runtime/node_modules/unist-util-stringify-position/readme.md"
+    "quartz/node_modules/hast-util-to-jsx-runtime/node_modules/vfile-message/readme.md"
   ]
 }
