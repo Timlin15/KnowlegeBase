@@ -212,4 +212,7 @@ Please ensure your dataset and policy use consistent feature names.
 If your dataset uses different observation keys (e.g., cameras named differently), use the `--rename_map` argument, for example:
   --rename_map='{"observation.images.left": "observation.images.camera1", "observation.images.top": "observation.images.camera2"}'
 ```
-这会显示键名不一致的问题，采用他推荐的reanem_map试试看
+这会显示键名不一致的问题，采用他推荐的reanem_map则可以成功运行，但是成功率是0%，需要重新训练。
+
+## 训练及微调
+为了实现
