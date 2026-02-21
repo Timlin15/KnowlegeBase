@@ -22,15 +22,17 @@ jobs:
           token: ${{ secrets.QUARTZ_PAT }}
           path: quartz
 
-      - name: Sync content
-        run: |
-          rm -rf quartz/content/*
-          rsync -av --delete \
-            --exclude '私密/' \
-            --exclude '.obsidian/' \
-            --exclude '.git/' \
-            --exclude '.gitignore' \
-            vault/ quartz/content/
+    - name: Sync content
+            run: |
+            # 删掉 symlink 或旧目录
+            rm -rf quartz/content
+            mkdir -p quartz/content
+            rsync -av \
+                --exclude '私密/' \
+                --exclude '.obsidian/' \
+                --exclude '.git/' \
+                --exclude '.gitignore' \
+                vault/ quartz/content/
 
       - name: Push to Quartz repo
         run: |
