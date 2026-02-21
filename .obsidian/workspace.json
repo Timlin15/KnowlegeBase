@@ -238,6 +238,8 @@
   "active": "c62a30fd5e59a4f4",
   "lastOpenFiles": [
     "index.md",
+    "实践/Lerobot/eval.sh 环境版本冲突问题诊断与修复总结.md",
+    "碎碎念",
     "index.md.tmp.195002.1771682315900",
     "备忘录/ssh&远程桌面.md",
     "实践/Lerobot/PI05 CKPT训练.md",
@@ -259,7 +261,6 @@
     "quartz/public/论文/双臂大模型/双臂抓取.html",
     "quartz/public/论文/双臂大模型/pi0.5.html",
     "quartz/public/论文/双臂大模型/pi*0.6.html",
-    "quartz/public/论文/双臂大模型/RoboTwin2.0.html",
     "quartz/node_modules/xmldom-sre/readme.md",
     "quartz/node_modules/fetch-ponyfill/node_modules/node-fetch/README.md",
     "quartz/node_modules/fetch-ponyfill/node_modules/node-fetch/LICENSE.md",
