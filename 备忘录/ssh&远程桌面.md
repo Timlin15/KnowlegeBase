@@ -8,14 +8,14 @@
 在由于我用的不是Windows，我没有验证这个步骤，我在Linux环境下是能正常连接的。
 远程桌面和ToDesk是大致相同的，如果你是ToDesk的会员可以不用设置。对于普通版，远程桌面不需要担心被踢下线且有更清晰的画质。
 ## 安装步骤
-首先，在你的电脑上[安装Tailscale](https://tailscale.com/download)，注册账号，然后用amax的访问链接： https://login.tailscale.com/admin/invite/Sz1eKMs2PH9wXwF7iMUW11
+首先，在你的电脑上[安装Tailscale](https://tailscale.com/download)，注册账号，然后用amax的访问链接。
 设置好tailscale就可以通过ssh连接上amax了。见 https://tailscale.com/kb/1022/install-windows ，应该不是很复杂，注意连接的时候VPN最好不要用tun模式。
 我用的基本上很稳定，偶尔会掉线，建议搭配使用**tmux**使用，防止工作丢失。
 
 然后依照
 - 按下 `Win + R`，输入 `mstsc` 回车。
 - **Computer** 处填写 `amax` 的 Tailscale IP（即 `100.91.146.72`）。
-- 点击 **Connect**，在弹出的窗口中输入amax的用户名和密码，即amax和Amax1979！即可连上
+- 点击 **Connect**，在弹出的窗口中输入amax的用户名和密码即可连上
 ![image.png](https://typora-1344509263.cos.ap-guangzhou.myqcloud.com/markdown/20260128153331637.png)
 
 
