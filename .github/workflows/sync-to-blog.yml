@@ -18,7 +18,7 @@ jobs:
       - name: Checkout quartz
         uses: actions/checkout@v4
         with:
-          repository: username/username.github.io
+          repository: Timlin15/Timlin15.github.io
           token: ${{ secrets.QUARTZ_PAT }}
           path: quartz
 
