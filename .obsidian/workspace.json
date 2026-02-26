@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "实践/双臂大模型/AI参考/数学基础.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "数学基础"
             }
           },
           {
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "模型知识/Diffusion & Flow model.md",
+                "file": "领域知识/模型知识/Diffusion & Flow model.md",
                 "mode": "source",
                 "source": false
               },
@@ -222,23 +222,24 @@
   },
   "active": "74438352cdb8eef3",
   "lastOpenFiles": [
-    "模型知识/Diffusion & Flow model.md",
-    "备忘录/使用quartz全自动将obsidian库转为博客.md",
+    "实践/双臂大模型/AI参考/论文切入口.md",
+    "实践/双臂大模型/AI参考/规划.md",
+    "实践/大创/pi0.5移植到宇树g1可行性研究.md",
+    "实践/大创/灵巧手&G1数据集.md",
+    "实践/双臂大模型/AI参考/数学基础.md",
+    "领域知识/模型知识/Transformer/CS336 Assignment 1.md",
     "index.md",
-    "模型知识/CS336/Assignment 1.md",
-    "双臂大模型/AI参考/数学基础.md",
-    "双臂大模型/AI参考/论文切入口.md",
-    "双臂大模型/AI参考/规划.md",
+    "领域知识",
+    "领域知识/模型知识/Diffusion & Flow model.md",
+    "备忘录/使用quartz全自动将obsidian库转为博客.md",
     "实践/Lerobot/PI05 CKPT训练.md",
     "周记/2026/08-第八周.md",
     "周记/2026/07-第七周.md",
-    "双臂大模型/AI参考",
-    "双臂大模型/Dataset.md",
+    "实践/双臂大模型/AI参考",
+    "实践/双臂大模型/Dataset.md",
     "周记/2026/04-第四周.md",
     "周记/eval_episode_3.mp4",
     "周记/eval_episode_2.mp4",
-    "实践/大创/pi0.5移植到宇树g1可行性研究.md",
-    "实践/大创/灵巧手&G1数据集.md",
     "周记/2025/10.27-11.2.md",
     "备忘录/ssh&远程桌面.md",
     "备忘录/BBdown--下载B站视频脚本.md",
@@ -261,12 +262,10 @@
     "quartz/public/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/docs/images",
     "quartz/public/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/周记/unitreeg1_pi05.mp4",
     "quartz/public/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/周记/pusht_offline_demo.mp4",
-    "quartz/public/论文/双臂大模型/群论概述.html",
     "quartz/node_modules/xmldom-sre/readme.md",
     "quartz/node_modules/fetch-ponyfill/node_modules/node-fetch/README.md",
     "quartz/node_modules/fetch-ponyfill/node_modules/node-fetch/LICENSE.md",
     "quartz/node_modules/gray-matter/node_modules/js-yaml/README.md",
-    "quartz/node_modules/gray-matter/node_modules/js-yaml/CHANGELOG.md",
-    "quartz/node_modules/fetch-ponyfill/node_modules/whatwg-url/README.md"
+    "quartz/node_modules/gray-matter/node_modules/js-yaml/CHANGELOG.md"
   ]
 }
