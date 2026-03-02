@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "09-第九周"
             }
+          },
+          {
+            "id": "a95d9f663ded2a2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "备忘录/使用quartz全自动将obsidian库转为博客.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "使用quartz全自动将obsidian库转为博客"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -220,12 +234,14 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "703b1db4b384be5f",
+  "active": "7c60dbb58f259a7d",
   "lastOpenFiles": [
+    "周记/2026/09-第九周.md",
+    "备忘录/使用quartz全自动将obsidian库转为博客.md",
+    "周记/index.md",
+    "index.md",
     "周记/2026/08-第八周.md",
     "实践/Lerobot/PI05 CKPT训练.md",
-    "未命名.md",
-    "周记/2026/09-第九周.md",
     "领域知识/前后端",
     "领域知识/模型知识/Diffusion & Flow model.md",
     "实践/双臂大模型/AI参考/数学基础.md",
@@ -234,9 +250,7 @@
     "实践/大创/pi0.5移植到宇树g1可行性研究.md",
     "实践/大创/灵巧手&G1数据集.md",
     "领域知识/模型知识/Transformer/CS336 Assignment 1.md",
-    "index.md",
     "领域知识",
-    "备忘录/使用quartz全自动将obsidian库转为博客.md",
     "周记/2026/07-第七周.md",
     "实践/双臂大模型/AI参考",
     "实践/双臂大模型/Dataset.md",
