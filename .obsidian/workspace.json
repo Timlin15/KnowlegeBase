@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实践/Lerobot/PI05 CKPT训练.md",
+                "file": "领域知识/模型知识/Diffusion & Flow model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "PI05 CKPT训练 的反向链接列表"
+              "title": "Diffusion & Flow model 的反向链接列表"
             }
           },
           {
@@ -235,8 +235,15 @@
   },
   "active": "74438352cdb8eef3",
   "lastOpenFiles": [
-    "领域知识/模型知识/Transformer/CS336 Assignment 1.md",
+    "领域知识/CSAPP笔记.md",
     "领域知识/模型知识/Diffusion & Flow model.md",
+    "领域知识/高数上.md",
+    "领域知识/csapp note.md",
+    "领域知识/CS61B笔记.md",
+    "领域知识/index.md",
+    "领域知识/CSAPP",
+    "领域知识/CS61B",
+    "领域知识/模型知识/Transformer/CS336 Assignment 1.md",
     "周记/index.md",
     "周记/2026/09-第九周.md",
     "实践/Lerobot/PI05 CKPT训练.md",
@@ -261,7 +268,6 @@
     "备忘录/BBdown--下载B站视频脚本.md",
     "备忘录/常用Linux指令.md",
     "周记/2025/9.22-9.28.md",
-    "实践/Lerobot/eval.sh 环境版本冲突问题诊断与修复总结.md",
     "周记/2025",
     "碎碎念",
     "index.md.tmp.195002.1771682315900",
@@ -274,12 +280,6 @@
     "quartz/public/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/周记/9.22-9.28-og-image.webp",
     "quartz/public/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/周记/2026/大二寒假展望-og-image.webp",
     "quartz/public/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/周记/2026/07-第七周-og-image.webp",
-    "quartz/public/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/周记/2026/06-第六周-og-image.webp",
-    "quartz/public/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/docs/images",
-    "quartz/public/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/周记/unitreeg1_pi05.mp4",
-    "quartz/node_modules/xmldom-sre/readme.md",
-    "quartz/node_modules/fetch-ponyfill/node_modules/node-fetch/README.md",
-    "quartz/node_modules/fetch-ponyfill/node_modules/node-fetch/LICENSE.md",
-    "quartz/node_modules/gray-matter/node_modules/js-yaml/README.md"
+    "quartz/public/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/周记/2026/06-第六周-og-image.webp"
   ]
 }
