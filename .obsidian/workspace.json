@@ -134,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "14d31d389b8f1502",
@@ -250,10 +249,12 @@
   },
   "active": "e0a1cf662eb7b3cd",
   "lastOpenFiles": [
+    "论文/双臂大模型/pi0.5.md",
+    "实践/双臂大模型/PI 系列 Policy.md",
+    "碎碎念/脑袋空空，双手生生.md",
+    "实践/Lerobot/SmolVLA应用.md",
     "领域知识/模型知识/Transformer/CS336 Assignment 1.md",
     "领域知识/模型知识/Diffusion & Flow model.md",
-    "实践/双臂大模型/PI 系列 Policy.md",
-    "论文/双臂大模型/pi0.5.md",
     "周记/2026/2610-第十周.md",
     "周记/2026/2609-第九周.md",
     "周记/2026/2608-第八周.md",
@@ -266,7 +267,6 @@
     "实践/双臂大模型/Dataset.md",
     "实践/Lerobot/Lerobot Policy抽象基类.md",
     "实践/Lerobot/PI05 CKPT训练.md",
-    "实践/Lerobot/SmolVLA应用.md",
     "领域知识/强化学习/Model free 基础方法.md",
     "领域知识/强化学习/Bellman 公式.md",
     "领域知识/强化学习/Actor Critic.md",
@@ -275,7 +275,6 @@
     "实践/大创/灵巧手&G1数据集.md",
     "领域知识/强化学习/index.md",
     "领域知识/强化学习/CS285/Imitation Learning.md",
-    "备忘录/ssh&远程桌面.md",
     "未命名.base",
     "领域知识/CSAPP",
     "领域知识/CS61B",
