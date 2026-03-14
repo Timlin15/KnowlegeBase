@@ -175,7 +175,7 @@ dataset_features = {
 
 ---
 
-接下来解析 `lerobot/policies/smolvla` 目录下三个核心文件的结构与功能：`configuration_smolvla.py`、`modeling_smolvla.py` 和 `processor_smolvla.py`。可参照[[Lerobot Policy抽象基类]]来阅读
+接下来解析 `lerobot/policies/smolvla` 目录下三个核心文件的结构与功能：`configuration_smolvla.py`、`modeling_smolvla.py` 和 `processor_smolvla.py`。可参照[[Lerobot Policy 抽象层分析]]来阅读
 
 SmolVLA 是一个基于视觉语言模型 (VLM) 的策略，并结合了流匹配 (Flow Matching) 技术来生成动作。
 
