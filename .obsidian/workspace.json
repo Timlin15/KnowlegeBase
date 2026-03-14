@@ -8,34 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cf05a31367f72af0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实践/Lerobot/PI05 CKPT训练.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PI05 CKPT训练"
-            }
-          },
-          {
-            "id": "f1a25238c22b54a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实践/Lerobot/Lerobot Policy抽象基类.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lerobot Policy抽象基类"
-            }
-          },
-          {
             "id": "e0a1cf662eb7b3cd",
             "type": "leaf",
             "state": {
@@ -50,17 +22,45 @@
             }
           },
           {
-            "id": "5f1a278e719f3803",
+            "id": "c78f689aa734b66f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "备忘录/使用quartz全自动将obsidian库转为博客.md",
+                "file": "领域知识/模型知识/Diffusion & Flow model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "使用quartz全自动将obsidian库转为博客"
+              "title": "Diffusion & Flow model"
+            }
+          },
+          {
+            "id": "e5b78d16bd4fb3e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "论文/双臂大模型/pi0.5.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pi0.5"
+            }
+          },
+          {
+            "id": "3de36bd7350e22b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "领域知识/模型知识/Transformer/CS336 Assignment 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CS336 Assignment 1"
             }
           },
           {
@@ -77,8 +77,7 @@
               "title": "PI05代码分析"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "14d31d389b8f1502",
@@ -250,33 +250,33 @@
   },
   "active": "e0a1cf662eb7b3cd",
   "lastOpenFiles": [
+    "领域知识/模型知识/Diffusion & Flow model.md",
+    "实践/双臂大模型/PI 系列 Policy.md",
+    "领域知识/模型知识/Transformer/CS336 Assignment 1.md",
+    "论文/双臂大模型/pi0.5.md",
+    "周记/2026/2610-第十周.md",
+    "周记/2026/2609-第九周.md",
+    "周记/2026/2608-第八周.md",
+    "周记/2026/2607-第七周.md",
+    "周记/2026/2606-第六周.md",
+    "周记/2026/2604-第四周.md",
     "备忘录/使用quartz全自动将obsidian库转为博客.md",
     "index.md",
-    "实践/双臂大模型/PI 系列 Policy.md",
     "实践/Lerobot/PI05代码分析.md",
-    "论文/双臂大模型/pi0.5.md",
     "实践/双臂大模型/Dataset.md",
     "实践/Lerobot/Lerobot Policy抽象基类.md",
     "实践/Lerobot/PI05 CKPT训练.md",
     "实践/Lerobot/SmolVLA应用.md",
-    "领域知识/模型知识/Diffusion & Flow model.md",
     "领域知识/强化学习/Model free 基础方法.md",
     "领域知识/强化学习/Bellman 公式.md",
     "领域知识/强化学习/Actor Critic.md",
     "备忘录/通天代来了.md",
     "备忘录/常用Linux指令.md",
     "实践/大创/灵巧手&G1数据集.md",
-    "周记/2026/10-第10周.md",
     "领域知识/强化学习/index.md",
-    "周记/2026/09-第九周.md",
-    "周记/2026/08-第八周.md",
     "领域知识/强化学习/CS285/Imitation Learning.md",
     "备忘录/ssh&远程桌面.md",
-    "论文/双臂大模型/MARL.md",
     "未命名.base",
-    "实践/大创/pi0.5移植到宇树g1可行性研究.md",
-    "论文/双臂大模型/pi*0.6.md",
-    "论文/双臂大模型/H-RDT概述.md",
     "领域知识/CSAPP",
     "领域知识/CS61B",
     "领域知识/前后端",
