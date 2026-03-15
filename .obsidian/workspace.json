@@ -148,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "14d31d389b8f1502",
@@ -263,9 +264,10 @@
   },
   "active": "e0a1cf662eb7b3cd",
   "lastOpenFiles": [
+    "实践/Lerobot/PI05代码分析.md",
+    "实践/Lerobot/Lerobot Policy 抽象层分析.md",
     "实践/双臂大模型/PI 系列 Policy.md",
     "实践/Lerobot/Lerobot Script 抽象层分析.md",
-    "实践/Lerobot/Lerobot Policy 抽象层分析.md",
     "领域知识/模型知识/Diffusion & Flow model.md",
     "论文/双臂大模型/精细双臂协调.md",
     "论文/人形机器人/HumanPlus.md",
@@ -281,7 +283,6 @@
     "周记/2026/2604-第四周.md",
     "备忘录/使用quartz全自动将obsidian库转为博客.md",
     "index.md",
-    "实践/Lerobot/PI05代码分析.md",
     "实践/双臂大模型/Dataset.md",
     "实践/Lerobot/PI05 CKPT训练.md",
     "领域知识/强化学习/Model free 基础方法.md",
