@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aef6ad56d4ff6413",
+            "id": "930df09b7840678d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,20 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Lerobot Policy 抽象层分析"
-            }
-          },
-          {
-            "id": "e5b78d16bd4fb3e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "论文/双臂大模型/pi0.5.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "pi0.5"
             }
           },
           {
@@ -62,8 +48,23 @@
               "icon": "lucide-file",
               "title": "PI05代码分析"
             }
+          },
+          {
+            "id": "e9be636a18595fff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "实践/双臂大模型/PI 系列 Policy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PI 系列 Policy"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -137,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "备忘录/ssh&远程桌面.md",
+                "file": "实践/Lerobot/PI05代码分析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +148,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "ssh&远程桌面 的反向链接列表"
+              "title": "PI05代码分析 的反向链接列表"
             }
           },
           {
@@ -234,26 +235,26 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "aef6ad56d4ff6413",
+  "active": "07f8e95262438dd1",
   "lastOpenFiles": [
+    "实践/Lerobot/Lerobot Script 抽象层分析.md",
     "实践/Lerobot/PI05代码分析.md",
     "实践/双臂大模型/PI 系列 Policy.md",
+    "实践/Lerobot/Lerobot Policy 抽象层分析.md",
+    "领域知识/模型知识/Transformer/CS336 Assignment 1.md",
+    "论文/双臂大模型/pi0.5.md",
     "周记/2026/2610-第十周.md",
     "周记/2026/2611-第十一周.md",
-    "实践/Lerobot/Lerobot Policy 抽象层分析.md",
     "Clippings/Taking Stock of the Gold Rally.md",
     "未命名 1.base",
     "未命名.base",
     "Clippings/Labor market impacts of AI A new measure and early evidence.md",
     "Clippings",
-    "实践/Lerobot/Lerobot Script 抽象层分析.md",
     "领域知识/模型知识/Diffusion & Flow model.md",
     "论文/双臂大模型/精细双臂协调.md",
     "论文/人形机器人/HumanPlus.md",
-    "论文/双臂大模型/pi0.5.md",
     "碎碎念/脑袋空空，双手生生.md",
     "实践/Lerobot/SmolVLA应用.md",
-    "领域知识/模型知识/Transformer/CS336 Assignment 1.md",
     "周记/2026/2609-第九周.md",
     "周记/2026/2608-第八周.md",
     "周记/2026/2607-第七周.md",
