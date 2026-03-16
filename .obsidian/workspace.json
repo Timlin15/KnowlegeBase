@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e0a1cf662eb7b3cd",
+            "id": "aef6ad56d4ff6413",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,34 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Lerobot Policy 抽象层分析"
-            }
-          },
-          {
-            "id": "aef6ad56d4ff6413",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "实践/双臂大模型/PI 系列 Policy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PI 系列 Policy"
-            }
-          },
-          {
-            "id": "c78f689aa734b66f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "领域知识/模型知识/Diffusion & Flow model.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Diffusion & Flow model"
             }
           },
           {
@@ -262,16 +234,18 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "e0a1cf662eb7b3cd",
+  "active": "aef6ad56d4ff6413",
   "lastOpenFiles": [
+    "实践/Lerobot/PI05代码分析.md",
+    "实践/双臂大模型/PI 系列 Policy.md",
+    "周记/2026/2610-第十周.md",
+    "周记/2026/2611-第十一周.md",
+    "实践/Lerobot/Lerobot Policy 抽象层分析.md",
     "Clippings/Taking Stock of the Gold Rally.md",
     "未命名 1.base",
     "未命名.base",
     "Clippings/Labor market impacts of AI A new measure and early evidence.md",
     "Clippings",
-    "实践/Lerobot/PI05代码分析.md",
-    "实践/Lerobot/Lerobot Policy 抽象层分析.md",
-    "实践/双臂大模型/PI 系列 Policy.md",
     "实践/Lerobot/Lerobot Script 抽象层分析.md",
     "领域知识/模型知识/Diffusion & Flow model.md",
     "论文/双臂大模型/精细双臂协调.md",
@@ -280,7 +254,6 @@
     "碎碎念/脑袋空空，双手生生.md",
     "实践/Lerobot/SmolVLA应用.md",
     "领域知识/模型知识/Transformer/CS336 Assignment 1.md",
-    "周记/2026/2610-第十周.md",
     "周记/2026/2609-第九周.md",
     "周记/2026/2608-第八周.md",
     "周记/2026/2607-第七周.md",
@@ -292,7 +265,6 @@
     "实践/Lerobot/PI05 CKPT训练.md",
     "领域知识/强化学习/Model free 基础方法.md",
     "领域知识/强化学习/Bellman 公式.md",
-    "领域知识/强化学习/Actor Critic.md",
     "领域知识/CSAPP",
     "领域知识/CS61B",
     "领域知识/前后端",
