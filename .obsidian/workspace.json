@@ -63,7 +63,8 @@
               "title": "PI 系列 Policy"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,7 +137,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实践/Lerobot/PI05代码分析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "PI05代码分析 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -233,8 +233,9 @@
       "obsidian-memos:Thino": false
     }
   },
-  "active": "a0a68d128823f898",
+  "active": "4d6d3168432dafd0",
   "lastOpenFiles": [
+    "实践/Lerobot/PI05代码分析.md",
     "领域知识/强化学习/index.md",
     "Clippings/Labor market impacts of AI A new measure and early evidence.md",
     "周记/2026/2604-第四周.md",
@@ -244,7 +245,6 @@
     "周记/index.md",
     "2026-03-15.md",
     "实践/Lerobot/Lerobot Policy 抽象层分析.md",
-    "实践/Lerobot/PI05代码分析.md",
     "实践/Lerobot/Lerobot Script 抽象层分析.md",
     "实践/双臂大模型/PI 系列 Policy.md",
     "论文/双臂大模型/pi0.5.md",
