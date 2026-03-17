@@ -1,0 +1,19 @@
+{
+  "id": "conv-1773747608073-sj7mpg7sp",
+  "title": "Analyze recent work and suggest improvements",
+  "titleGenerationStatus": "success",
+  "createdAt": 1773747608195,
+  "updatedAt": 1773747683849,
+  "lastResponseAt": 1773747683849,
+  "sessionId": "52c1c90c-a794-4998-97bf-2ff627b40c2f",
+  "sdkSessionId": "52c1c90c-a794-4998-97bf-2ff627b40c2f",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 8,
+    "cacheCreationInputTokens": 5490,
+    "cacheReadInputTokens": 38434,
+    "contextWindow": 200000,
+    "contextTokens": 43932,
+    "percentage": 22
+  }
+}

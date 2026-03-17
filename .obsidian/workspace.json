@@ -211,12 +211,23 @@
               "icon": "lucide-ghost",
               "title": "mermaid-toolbar-view"
             }
+          },
+          {
+            "id": "5fffcfac584140be",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 535.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -230,7 +241,8 @@
       "command-palette:打开命令面板": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-memos:Thino": false
+      "obsidian-memos:Thino": false,
+      "claudian:Open Claudian": false
     }
   },
   "active": "a0a68d128823f898",
