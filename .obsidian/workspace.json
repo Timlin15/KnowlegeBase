@@ -49,8 +49,7 @@
               "title": "常用Linux指令"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -233,8 +232,9 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "25a817a5f1bec99e",
+  "active": "18658dbe92843b8b",
   "lastOpenFiles": [
+    "备忘录/常用Linux指令.md",
     "备忘录/ssh&远程桌面.md",
     "领域知识/强化学习/Model free 基础方法.md",
     "实践/双臂大模型/PI 系列 Policy.md",
@@ -263,7 +263,6 @@
     "未命名.base",
     "Clippings",
     "论文/人形机器人/HumanPlus.md",
-    "碎碎念/脑袋空空，双手生生.md",
     "领域知识/CSAPP",
     "领域知识/CS61B",
     "领域知识/前后端",
