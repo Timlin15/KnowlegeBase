@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "14d31d389b8f1502",
@@ -234,8 +233,9 @@
   },
   "active": "18658dbe92843b8b",
   "lastOpenFiles": [
-    "碎碎念/笔记风格.md",
+    "实践/index.md",
     "领域知识/强化学习/深度 RL.md",
+    "碎碎念/笔记风格.md",
     "领域知识/强化学习/CS285/Q-learning & Actor-critic.md",
     "Clippings/一些值得一听的博客.md",
     "Clippings/index.md",
@@ -260,7 +260,6 @@
     "领域知识/强化学习/index.md",
     "Clippings/Labor market impacts of AI A new measure and early evidence.md",
     "周记/2026/2604-第四周.md",
-    "备忘录/使用quartz全自动将obsidian库转为博客.md",
     "未命名 1.base",
     "Clippings",
     "领域知识/CSAPP",
