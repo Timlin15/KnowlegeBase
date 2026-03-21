@@ -169,13 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "复习/期末复习.md",
+                "file": "领域知识/强化学习/深度 RL.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "期末复习 的大纲"
+              "title": "深度 RL 的大纲"
             }
           },
           {
@@ -184,8 +184,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "mermaid-toolbar-view"
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           },
           {
@@ -194,8 +194,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "mermaid-toolbar-view"
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           },
           {
@@ -233,11 +233,11 @@
   },
   "active": "18658dbe92843b8b",
   "lastOpenFiles": [
-    "Clippings/index.md",
     "领域知识/强化学习/CS285/Q-learning & Actor-critic.md",
-    "周记/index.md",
     "Clippings/一些值得一听的博客.md",
+    "Clippings/index.md",
     "领域知识/强化学习/深度 RL.md",
+    "周记/index.md",
     "领域知识/强化学习/Model free 基础方法.md",
     "实践/Lerobot/PI05 CKPT训练.md",
     "备忘录/常用Linux指令.md",
