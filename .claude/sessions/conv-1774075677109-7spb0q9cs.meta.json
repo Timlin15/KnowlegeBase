@@ -3,17 +3,17 @@
   "title": "Improve technical blog writing style",
   "titleGenerationStatus": "success",
   "createdAt": 1774075677110,
-  "updatedAt": 1774075876002,
-  "lastResponseAt": 1774075876002,
+  "updatedAt": 1774081092341,
+  "lastResponseAt": 1774081092341,
   "sessionId": "c738d757-7a8a-4357-a5b5-b452dfdf670a",
   "sdkSessionId": "c738d757-7a8a-4357-a5b5-b452dfdf670a",
   "usage": {
     "model": "sonnet",
-    "inputTokens": 1,
-    "cacheCreationInputTokens": 4354,
-    "cacheReadInputTokens": 32977,
+    "inputTokens": 3,
+    "cacheCreationInputTokens": 36140,
+    "cacheReadInputTokens": 6241,
     "contextWindow": 200000,
-    "contextTokens": 37332,
-    "percentage": 19
+    "contextTokens": 42384,
+    "percentage": 21
   }
 }
