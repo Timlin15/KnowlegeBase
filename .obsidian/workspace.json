@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "14d31d389b8f1502",
@@ -234,12 +233,16 @@
   },
   "active": "18658dbe92843b8b",
   "lastOpenFiles": [
+    "碎碎念/脑袋空空，双手生生.md",
     "领域知识/强化学习/CS285/Q-learning & Actor-critic.md",
+    "Clippings/一些值得一听的博客.md",
+    "周记/2026/2612-第十二周.md",
+    "周记/2026/2611-第十一周.md",
+    "领域知识/强化学习/Actor Critic.md",
     "领域知识/强化学习/深度 RL.md",
     "备忘录/通天代来了.md",
     "实践/index.md",
     "碎碎念/笔记风格.md",
-    "Clippings/一些值得一听的博客.md",
     "Clippings/index.md",
     "周记/index.md",
     "领域知识/强化学习/Model free 基础方法.md",
@@ -253,14 +256,10 @@
     "实践/Lerobot/Lerobot Policy 抽象层分析.md",
     "论文/双臂大模型/双臂抓取.md",
     "论文/双臂大模型/MARL.md",
-    "周记/2026/2611-第十一周.md",
     "index.md",
     "领域知识/模型知识/Diffusion & Flow model.md",
     "论文/双臂大模型/群论概述.md",
     "论文/双臂大模型/精细双臂协调.md",
-    "备忘录/BBdown--下载B站视频脚本.md",
-    "领域知识/强化学习/index.md",
-    "Clippings/Labor market impacts of AI A new measure and early evidence.md",
     "未命名 1.base",
     "Clippings",
     "领域知识/CSAPP",

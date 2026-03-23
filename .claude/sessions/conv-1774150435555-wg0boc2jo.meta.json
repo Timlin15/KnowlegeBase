@@ -3,11 +3,10 @@
   "title": "Summarize and append to article",
   "titleGenerationStatus": "success",
   "createdAt": 1774150435556,
-  "updatedAt": 1774150812287,
+  "updatedAt": 1774254773226,
   "lastResponseAt": 1774150812287,
   "sessionId": "aca8f59d-d086-4cc6-bade-d0907f5540c4",
   "sdkSessionId": "aca8f59d-d086-4cc6-bade-d0907f5540c4",
-  "currentNote": "领域知识/强化学习/深度 RL.md",
   "usage": {
     "model": "sonnet",
     "inputTokens": 3,
