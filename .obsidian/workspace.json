@@ -22,18 +22,6 @@
             }
           },
           {
-            "id": "423cca31976bf3ed",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.12.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "版本说明 1.12.7"
-            }
-          },
-          {
             "id": "6ca7b935fbcdbcf2",
             "type": "leaf",
             "state": {
@@ -61,8 +49,7 @@
               "title": "PI05 CKPT训练"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -245,10 +232,10 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "423cca31976bf3ed",
+  "active": "18658dbe92843b8b",
   "lastOpenFiles": [
-    "碎碎念/脑袋空空，双手生生.md",
     "领域知识/强化学习/CS285/Q-learning & Actor-critic.md",
+    "碎碎念/脑袋空空，双手生生.md",
     "Clippings/一些值得一听的博客.md",
     "周记/2026/2612-第十二周.md",
     "周记/2026/2611-第十一周.md",
