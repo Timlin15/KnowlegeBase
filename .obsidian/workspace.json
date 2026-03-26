@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实践/Lerobot/PI05 CKPT训练.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PI05 CKPT训练"
+              "title": "index"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -232,11 +232,15 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "6ca7b935fbcdbcf2",
+  "active": "4d6d3168432dafd0",
   "lastOpenFiles": [
+    "index.md",
+    "未命名.md",
+    "论文/双臂大模型/群论概述.md",
+    "实践/Lerobot/PI05 CKPT训练.md",
+    "领域知识/强化学习/深度 RL.md",
     "领域知识/强化学习/CS285/Q-learning & Actor-critic.md",
     "周记/2026/2612-第十二周.md",
-    "领域知识/强化学习/深度 RL.md",
     "碎碎念/脑袋空空，双手生生.md",
     "Clippings/一些值得一听的博客.md",
     "周记/2026/2611-第十一周.md",
@@ -247,7 +251,6 @@
     "Clippings/index.md",
     "周记/index.md",
     "领域知识/强化学习/Model free 基础方法.md",
-    "实践/Lerobot/PI05 CKPT训练.md",
     "备忘录/常用Linux指令.md",
     "未命名.base",
     "备忘录/ssh&远程桌面.md",
@@ -257,10 +260,7 @@
     "实践/Lerobot/Lerobot Policy 抽象层分析.md",
     "论文/双臂大模型/双臂抓取.md",
     "论文/双臂大模型/MARL.md",
-    "index.md",
     "领域知识/模型知识/Diffusion & Flow model.md",
-    "论文/双臂大模型/群论概述.md",
-    "论文/双臂大模型/精细双臂协调.md",
     "未命名 1.base",
     "Clippings",
     "领域知识/CSAPP",
