@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "14d31d389b8f1502",
@@ -232,7 +233,7 @@
       "claudian:Open Claudian": false
     }
   },
-  "active": "4d6d3168432dafd0",
+  "active": "6ca7b935fbcdbcf2",
   "lastOpenFiles": [
     "index.md",
     "未命名.md",
