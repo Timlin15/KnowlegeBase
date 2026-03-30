@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "领域知识/强化学习/GAE.md",
+                "file": "领域知识/模型知识/Diffusion & Flow model.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GAE"
+              "title": "Diffusion & Flow model"
             }
           },
           {
@@ -107,7 +107,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "14d31d389b8f1502",
