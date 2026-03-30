@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "周记/2026/2613-第十三周.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2613-第十三周"
+            }
+          },
+          {
+            "id": "cddac325680b39d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "周记/2026/2612-第十二周.md",
                 "mode": "source",
                 "source": false
@@ -49,8 +63,7 @@
               "title": "index"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "14d31d389b8f1502",
@@ -230,19 +242,22 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-memos:Thino": false,
-      "claudian:Open Claudian": false
+      "claudian:Open Claudian": false,
+      "media-extended:Open external media": false
     }
   },
-  "active": "6ca7b935fbcdbcf2",
+  "active": "18658dbe92843b8b",
   "lastOpenFiles": [
+    "周记/2026/2612-第十二周.md",
+    "周记/2026/2613-第十三周.md",
+    "实践/Lerobot/PI05 CKPT训练.md",
+    "领域知识/模型知识/Diffusion & Flow model.md",
     "领域知识/强化学习/深度 RL.md",
     "领域知识/强化学习/GAE.md",
     "index.md",
     "未命名.md",
     "论文/双臂大模型/群论概述.md",
-    "实践/Lerobot/PI05 CKPT训练.md",
     "领域知识/强化学习/CS285/Q-learning & Actor-critic.md",
-    "周记/2026/2612-第十二周.md",
     "碎碎念/脑袋空空，双手生生.md",
     "Clippings/一些值得一听的博客.md",
     "周记/2026/2611-第十一周.md",
@@ -260,8 +275,6 @@
     "实践/Lerobot/PI05代码分析.md",
     "领域知识/模型知识/Transformer/CS336 Assignment 1.md",
     "实践/Lerobot/Lerobot Policy 抽象层分析.md",
-    "论文/双臂大模型/双臂抓取.md",
-    "论文/双臂大模型/MARL.md",
     "未命名 1.base",
     "Clippings",
     "领域知识/CSAPP",
