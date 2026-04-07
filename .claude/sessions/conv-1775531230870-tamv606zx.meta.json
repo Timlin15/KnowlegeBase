@@ -1,0 +1,20 @@
+{
+  "id": "conv-1775531230870-tamv606zx",
+  "title": "Analyze weeks 10-14 progress and shortcomings",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775531230871,
+  "updatedAt": 1775531291822,
+  "lastResponseAt": 1775531291822,
+  "sessionId": "c3fb3777-ec40-4cbd-a86a-3709506a4cdd",
+  "sdkSessionId": "c3fb3777-ec40-4cbd-a86a-3709506a4cdd",
+  "currentNote": "周记/2026/2614-第十四周.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 1,
+    "cacheCreationInputTokens": 3647,
+    "cacheReadInputTokens": 13809,
+    "contextWindow": 200000,
+    "contextTokens": 17457,
+    "percentage": 9
+  }
+}
