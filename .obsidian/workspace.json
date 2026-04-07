@@ -199,8 +199,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "lucide-ghost",
+              "title": "mermaid-toolbar-view"
             }
           },
           {
@@ -209,8 +209,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
+              "icon": "lucide-ghost",
+              "title": "mermaid-toolbar-view"
             }
           },
           {
@@ -228,22 +228,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 457.5
+    "width": 457.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-memos:Thino": false,
+      "claudian:Open Claudian": false,
+      "media-extended:Open external media": false,
       "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-memos:Thino": false,
-      "claudian:Open Claudian": false,
-      "media-extended:Open external media": false
+      "command-palette:打开命令面板": false
     }
   },
   "active": "6ca7b935fbcdbcf2",
