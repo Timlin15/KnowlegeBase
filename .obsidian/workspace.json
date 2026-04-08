@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "备忘录/使用quartz全自动将obsidian库转为博客.md",
+                "file": "领域知识/强化学习/GAE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "使用quartz全自动将obsidian库转为博客"
+              "title": "GAE"
             }
           },
           {
@@ -106,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "14d31d389b8f1502",
@@ -234,6 +235,7 @@
   },
   "active": "18658dbe92843b8b",
   "lastOpenFiles": [
+    "备忘录/使用quartz全自动将obsidian库转为博客.md",
     "index.md",
     "领域知识/强化学习/GAE.md",
     "实践/大创/ROS2 G1 连接配置指南.md",
@@ -260,7 +262,6 @@
     "领域知识/强化学习/CS285/Q-learning & Actor-critic.md",
     "碎碎念/脑袋空空，双手生生.md",
     "Clippings/一些值得一听的博客.md",
-    "领域知识/强化学习/Actor Critic.md",
     "未命名 1.base",
     "Clippings",
     "领域知识/CSAPP",
