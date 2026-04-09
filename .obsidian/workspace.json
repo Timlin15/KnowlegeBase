@@ -63,8 +63,7 @@
               "title": "ROS2 G1 连接配置指南"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -248,8 +247,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f7b2bc4695096a07",
+  "active": "18658dbe92843b8b",
   "lastOpenFiles": [
+    "领域知识/强化学习/深度 RL.md",
     "领域知识/强化学习/GAE.md",
     "备忘录/使用quartz全自动将obsidian库转为博客.md",
     "index.md",
@@ -270,7 +270,6 @@
     "实践/Lerobot/Lerobot Script 抽象层分析.md",
     "周记/2026/2606-第六周.md",
     "周记/2026/2607-第七周.md",
-    "领域知识/强化学习/深度 RL.md",
     "领域知识/模型知识/Diffusion & Flow model.md",
     "未命名.md",
     "论文/双臂大模型/群论概述.md",
