@@ -120,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "14d31d389b8f1502",
@@ -251,6 +250,7 @@
   "lastOpenFiles": [
     "领域知识/强化学习/深度 RL.md",
     "领域知识/强化学习/GAE.md",
+    "领域知识/强化学习/Model free 基础方法.md",
     "备忘录/使用quartz全自动将obsidian库转为博客.md",
     "index.md",
     "实践/大创/ROS2 G1 连接配置指南.md",
@@ -275,7 +275,6 @@
     "论文/双臂大模型/群论概述.md",
     "领域知识/强化学习/CS285/Q-learning & Actor-critic.md",
     "碎碎念/脑袋空空，双手生生.md",
-    "Clippings/一些值得一听的博客.md",
     "未命名 1.base",
     "Clippings",
     "领域知识/CSAPP",
