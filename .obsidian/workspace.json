@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "周记/2026/2615-第十五周.md",
+                "file": "备忘录/通天代来了.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2615-第十五周"
+              "title": "通天代来了"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "底层通信原理分析"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "de87c8b00f2bd4ca",
@@ -239,11 +238,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "16660bb0ba46d33b",
+  "active": "6936249e131a2440",
   "lastOpenFiles": [
     "周记/2026/2615-第十五周.md",
-    "实践/大创/底层通信原理分析.md",
     "实践/大创/底层通信参考资料.md",
+    "实践/大创/底层通信原理分析.md",
     "周记/2026/2614-第十四周.md",
     "备忘录/通天代来了.md",
     "Clippings/Dario Amodei — “We are near the end of the exponential”.md",
