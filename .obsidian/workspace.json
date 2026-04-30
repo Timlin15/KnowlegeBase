@@ -63,7 +63,8 @@
               "title": "SmolVLA应用"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "14d31d389b8f1502",
@@ -246,8 +248,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6936249e131a2440",
+  "active": "16660bb0ba46d33b",
   "lastOpenFiles": [
+    "实践/大创/真机部署 Psi0 踩坑记录.md",
     "周记/2026/2613-第十三周.md",
     "周记/2026/2614-第十四周.md",
     "周记/2026/2616-第十六周.md",
@@ -255,7 +258,6 @@
     "总结/SIMPLE启动总结.md",
     "实践/大创/底层通信参考资料.md",
     "实践/大创/ROS2 G1 连接配置指南.md",
-    "实践/大创/真机部署 Psi0 踩坑记录.md",
     "实践/大创/灵巧手&G1数据集.md",
     "实践/大创/底层通信原理分析.md",
     "备忘录/通天代来了.md",
