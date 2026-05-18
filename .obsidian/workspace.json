@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实践/Lerobot/PI05代码分析.md",
+                "file": "总结/SIMPLE启动总结.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PI05代码分析"
+              "title": "SIMPLE启动总结"
             }
           },
           {
@@ -63,7 +63,8 @@
               "title": "SmolVLA应用"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -246,12 +247,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6936249e131a2440",
+  "active": "16660bb0ba46d33b",
   "lastOpenFiles": [
+    "实践/Lerobot/PI05代码分析.md",
+    "论文/人形机器人/WholebodyVLA.md",
     "备忘录/通天代来了.md",
     "周记/2026/2619-第十九周.md",
     "实践/大创/真机部署 Psi0 踩坑记录.md",
-    "实践/Lerobot/PI05代码分析.md",
     "周记/2026/2613-第十三周.md",
     "周记/2026/2614-第十四周.md",
     "周记/2026/2616-第十六周.md",
@@ -280,7 +282,6 @@
     "Clippings/Dario Amodei — “We are near the end of the exponential”.md",
     "Clippings/index.md",
     "Clippings/A 7-hour marathon interview with Saining Xie World Models, AMI Labs, Yann LeCun, Fei-Fei Li, and 42.md",
-    "周记/2026/2612-第十二周.md",
     "未命名.base",
     "未命名 1.base",
     "Clippings",
