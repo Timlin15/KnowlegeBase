@@ -63,8 +63,7 @@
               "title": "SmolVLA应用"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -247,10 +246,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6a7748c60fc2abe8",
+  "active": "6936249e131a2440",
   "lastOpenFiles": [
-    "总结/Psi0.SIMPLE全策略启动命令.md",
     "论文/双臂大模型/Locomanipulation调研.md",
+    "总结/Psi0.SIMPLE全策略启动命令.md",
     "论文/人形机器人/WholebodyVLA.md",
     "周记/2026/2606-第六周.md",
     "实践/Lerobot/SmolVLA应用.md",
