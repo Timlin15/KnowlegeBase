@@ -8,6 +8,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "6a7748c60fc2abe8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "总结/Locomanipulation调研.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Locomanipulation调研"
+            }
+          },
+          {
             "id": "6936249e131a2440",
             "type": "leaf",
             "state": {
@@ -19,20 +33,6 @@
               },
               "icon": "lucide-file",
               "title": "Psi0.SIMPLE全策略启动命令"
-            }
-          },
-          {
-            "id": "6a7748c60fc2abe8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "论文/双臂大模型/Locomanipulation调研.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Locomanipulation调研"
             }
           },
           {
@@ -120,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "14d31d389b8f1502",
@@ -246,10 +247,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6936249e131a2440",
+  "active": "6a7748c60fc2abe8",
   "lastOpenFiles": [
-    "论文/双臂大模型/Locomanipulation调研.md",
     "总结/Psi0.SIMPLE全策略启动命令.md",
+    "总结/Locomanipulation调研.md",
     "论文/人形机器人/WholebodyVLA.md",
     "周记/2026/2606-第六周.md",
     "实践/Lerobot/SmolVLA应用.md",
