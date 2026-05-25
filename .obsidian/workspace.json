@@ -63,8 +63,7 @@
               "title": "SmolVLA应用"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +120,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "14d31d389b8f1502",
@@ -247,11 +247,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6936249e131a2440",
+  "active": "6a7748c60fc2abe8",
   "lastOpenFiles": [
+    "总结/Psi0.SIMPLE全策略启动命令.md",
     "周记/2026/2621-第二十一周.md",
     "周记/2026/2619-第十九周.md",
-    "总结/Psi0.SIMPLE全策略启动命令.md",
     "总结/Locomanipulation调研.md",
     "论文/人形机器人/WholebodyVLA.md",
     "周记/2026/2606-第六周.md",
