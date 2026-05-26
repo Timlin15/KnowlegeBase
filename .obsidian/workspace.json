@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "实践/Lerobot/PI05代码分析.md",
+                "file": "总结/Locomanipulation调研.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "PI05代码分析 的反向链接列表"
+              "title": "Locomanipulation调研 的反向链接列表"
             }
           },
           {
@@ -223,8 +223,7 @@
               "title": "Claudian"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -249,10 +248,10 @@
   },
   "active": "6a7748c60fc2abe8",
   "lastOpenFiles": [
+    "总结/Locomanipulation调研.md",
     "总结/Psi0.SIMPLE全策略启动命令.md",
     "周记/2026/2621-第二十一周.md",
     "周记/2026/2619-第十九周.md",
-    "总结/Locomanipulation调研.md",
     "论文/人形机器人/WholebodyVLA.md",
     "周记/2026/2606-第六周.md",
     "实践/Lerobot/SmolVLA应用.md",
