@@ -63,7 +63,8 @@
               "title": "SmolVLA应用"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -245,15 +246,19 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6a7748c60fc2abe8",
+  "active": "686dfe97336930a7",
   "lastOpenFiles": [
-    "论文/双臂大模型/H-RDT概述.md",
+    "周记/2026/2610-第十周.md",
+    "周记/2026/2608-第八周.md",
+    "周记/2026/2607-第七周.md",
+    "周记/2026/2606-第六周.md",
+    "周记/2026/2604-第四周.md",
     "总结/Locomanipulation调研.md",
+    "论文/双臂大模型/H-RDT概述.md",
     "总结/Psi0.SIMPLE全策略启动命令.md",
     "周记/2026/2621-第二十一周.md",
     "周记/2026/2619-第十九周.md",
     "论文/人形机器人/WholebodyVLA.md",
-    "周记/2026/2606-第六周.md",
     "实践/Lerobot/SmolVLA应用.md",
     "HumanPlus.md",
     "总结/SIMPLE启动总结.md",
@@ -269,16 +274,12 @@
     "实践/大创/ROS2 G1 连接配置指南.md",
     "实践/大创/灵巧手&G1数据集.md",
     "实践/大创/底层通信原理分析.md",
-    "领域知识/模型知识/Diffusion & Flow model.md",
     "head_stereo_left 1.mp4",
     "head_stereo_left.mp4",
     "demo.mp4",
     "总结/head_stereo_left.mp4",
     "总结/demo.mp4",
     "周记/unitreeg1_pi05.mp4",
-    "实践/双臂大模型/PI 系列 Policy.md",
-    "Clippings/Andrej Karpathy — “We’re summoning ghosts, not building animals”.md",
-    "总结/未命名.md",
     "总结",
     "未命名.base",
     "未命名 1.base",
