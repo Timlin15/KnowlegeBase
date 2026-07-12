@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "备忘录/通天代来了.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "通天代来了"
             }
           }
         ],
@@ -218,8 +218,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "26825b93521e6d92",
+  "active": "4d6d3168432dafd0",
   "lastOpenFiles": [
+    "备忘录/ssh&远程桌面.md",
+    "备忘录/常用Linux指令.md",
+    "备忘录/使用quartz全自动将obsidian库转为博客.md",
+    "index.md",
     "领域知识/CSAPP笔记.md",
     "总结/Egocentric调研.md",
     "周记/2026/2621-第二十一周.md",
@@ -242,10 +246,6 @@
     "实践/大创/真机部署 Psi0 踩坑记录.md",
     "周记/2026/2613-第十三周.md",
     "周记/2026/2614-第十四周.md",
-    "周记/2026/2616-第十六周.md",
-    "周记/2026/2615-第十五周.md",
-    "实践/大创/底层通信参考资料.md",
-    "实践/大创/ROS2 G1 连接配置指南.md",
     "head_stereo_left 1.mp4",
     "head_stereo_left.mp4",
     "demo.mp4",
