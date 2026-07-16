@@ -48,9 +48,18 @@
               "icon": "lucide-file",
               "title": "通天代来了"
             }
+          },
+          {
+            "id": "7fb7948564dd550e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -232,15 +241,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "21bae1b88ef38f01",
+  "active": "686dfe97336930a7",
   "lastOpenFiles": [
+    "备忘录/通天代来了.md",
     "实践/比赛/LLM-REC/数据集.md",
     "总结/sid_chat_eval_details.csv",
     "实践/比赛/LLM-REC/LLM-REC 备忘录.md",
     "实践/比赛/LLM-REC",
     "备忘录/sql 基础语法.md",
     "领域知识/强化学习/Bellman 公式.md",
-    "备忘录/通天代来了.md",
     "实践/比赛/llm-rec",
     "实践/比赛",
     "备忘录/ssh&远程桌面.md",
