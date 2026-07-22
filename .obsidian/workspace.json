@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实践/比赛/LLM-REC/LLM-REC 备忘录.md",
+                "file": "备忘录/通天代来了.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM-REC 备忘录"
+              "title": "通天代来了"
             }
           },
           {
@@ -49,8 +49,7 @@
               "title": "世界动作模型WAM浅析"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "14d31d389b8f1502",
@@ -233,20 +231,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7fb7948564dd550e",
+  "active": "686dfe97336930a7",
   "lastOpenFiles": [
-    "论文/双臂大模型/pi0.5.md",
-    "论文/世界动作模型WAM浅析.md",
-    "实践/比赛/LLM-REC/数据集.md",
-    "备忘录/通天代来了.md",
+    "备忘录/ssh&远程桌面.md",
     "实践/比赛/LLM-REC/LLM-REC 备忘录.md",
+    "实践/比赛/LLM-REC/数据集.md",
+    "论文/世界动作模型WAM浅析.md",
+    "论文/双臂大模型/pi0.5.md",
+    "备忘录/通天代来了.md",
     "总结/sid_chat_eval_details.csv",
     "实践/比赛/LLM-REC",
     "备忘录/sql 基础语法.md",
     "领域知识/强化学习/Bellman 公式.md",
     "实践/比赛/llm-rec",
     "实践/比赛",
-    "备忘录/ssh&远程桌面.md",
     "备忘录/常用Linux指令.md",
     "备忘录/使用quartz全自动将obsidian库转为博客.md",
     "index.md",
