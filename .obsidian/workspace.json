@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "5c18049dc7e5eb4b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.13.4"
+            }
+          },
+          {
             "id": "12bfdfe2c1764c23",
             "type": "leaf",
             "state": {
@@ -233,8 +245,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "12bfdfe2c1764c23",
+  "active": "5c18049dc7e5eb4b",
   "lastOpenFiles": [
+    "领域知识/模型知识/Transformer/CS336 Assignment 1.md",
     "周记/2026/2632-第三十二周.md",
     "实践/比赛/LLM-REC/LLM-REC 备忘录.md",
     "备忘录/通天代来了.md",
@@ -264,7 +277,6 @@
     "论文/双臂大模型/H-RDT概述.md",
     "总结/Psi0.SIMPLE全策略启动命令.md",
     "周记/2026/2619-第十九周.md",
-    "论文/人形机器人/WholebodyVLA.md",
     "head_stereo_left 1.mp4",
     "head_stereo_left.mp4",
     "demo.mp4",
