@@ -4,5 +4,7 @@
   "focusNewTab": true,
   "alwaysUpdateLinks": true,
   "showLineNumber": false,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "showIndentGuide": false,
+  "rightToLeft": false
 }

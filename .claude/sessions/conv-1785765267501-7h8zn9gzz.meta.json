@@ -1,0 +1,20 @@
+{
+  "id": "conv-1785765267501-7h8zn9gzz",
+  "title": "这个微调使用的是哪个训练集？有多少条轨迹",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1785765267501,
+  "updatedAt": 1785765273627,
+  "lastResponseAt": 1785765273627,
+  "sessionId": "7b2e76b1-655f-4a5a-ad7e-c820dbcfd890",
+  "sdkSessionId": "7b2e76b1-655f-4a5a-ad7e-c820dbcfd890",
+  "currentNote": "实践/Lerobot/PI05 CKPT训练.md",
+  "usage": {
+    "model": "sonnet",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}
