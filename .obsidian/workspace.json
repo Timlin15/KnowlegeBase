@@ -108,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "14d31d389b8f1502",
@@ -234,7 +235,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "4d6d3168432dafd0",
+  "active": "12bfdfe2c1764c23",
   "lastOpenFiles": [
     "实践/Lerobot/PI05 CKPT训练.md",
     "总结/Psi0.SIMPLE全策略启动命令.md",
