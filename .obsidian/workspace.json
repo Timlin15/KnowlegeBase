@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,8 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "14d31d389b8f1502",
@@ -236,10 +235,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6666ec4189448d7f",
+  "active": "7fb7948564dd550e",
   "lastOpenFiles": [
-    "实践/Lerobot/PI05 CKPT训练.md",
     "总结/SIMPLE 触觉适配.md",
+    "备忘录/通天代来了.md",
+    "实践/Lerobot/PI05 CKPT训练.md",
     "总结/Psi0.SIMPLE全策略启动命令.md",
     "周记/eval_episode_3.mp4",
     "周记/eval_episode_2.mp4",
@@ -249,7 +249,6 @@
     "总结/demo.mp4",
     "ep_20018_tactile_alignment.mp4",
     "领域知识/模型知识/Transformer/CS336 Assignment 1.md",
-    "备忘录/通天代来了.md",
     "周记/2026/大二寒假展望.md",
     "周记/2026/2613-第十三周.md",
     "周记/2026/2611-第十一周.md",
