@@ -49,8 +49,7 @@
               "title": "世界动作模型WAM浅析"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -235,11 +234,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6666ec4189448d7f",
+  "active": "12bfdfe2c1764c23",
   "lastOpenFiles": [
+    "备忘录/通天代来了.md",
     "论文/世界动作模型WAM浅析.md",
     "总结/SIMPLE 触觉适配.md",
-    "备忘录/通天代来了.md",
     "实践/Lerobot/PI05 CKPT训练.md",
     "总结/Psi0.SIMPLE全策略启动命令.md",
     "周记/eval_episode_3.mp4",
