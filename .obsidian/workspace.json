@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "b96cf1b6805462e3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.13.6"
+            }
+          },
+          {
             "id": "6666ec4189448d7f",
             "type": "leaf",
             "state": {
@@ -49,7 +61,8 @@
               "title": "世界动作模型WAM浅析"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -235,7 +248,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "12bfdfe2c1764c23",
+  "active": "b96cf1b6805462e3",
   "lastOpenFiles": [
     "备忘录/通天代来了.md",
     "论文/世界动作模型WAM浅析.md",
