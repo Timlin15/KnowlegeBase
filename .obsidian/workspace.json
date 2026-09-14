@@ -62,6 +62,20 @@
               "icon": "lucide-file",
               "title": "世界动作模型WAM浅析"
             }
+          },
+          {
+            "id": "c71a046984c95b42",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "领域知识/模型知识/Transformer/CS336 Assignment 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CS336 Assignment 1"
+            }
           }
         ],
         "currentTab": 3
@@ -251,9 +265,10 @@
   },
   "active": "6a9e6ddfcf7e56a8",
   "lastOpenFiles": [
+    "领域知识/模型知识/Transformer/CS336 Assignment 1.md",
+    "论文/世界动作模型WAM浅析.md",
     "备忘录/通天代来了.md",
     "碎碎念/大三上开学初记.md",
-    "论文/世界动作模型WAM浅析.md",
     "总结/灵巧手LAM概览.md",
     "总结/SIMPLE 触觉适配.md",
     "论文/灵巧手生成模型/灵巧手模型概览.md",
@@ -267,7 +282,6 @@
     "周记/unitreeg1_pi05.mp4",
     "总结/demo.mp4",
     "ep_20018_tactile_alignment.mp4",
-    "领域知识/模型知识/Transformer/CS336 Assignment 1.md",
     "周记/2026/大二寒假展望.md",
     "周记/2026/2613-第十三周.md",
     "周记/2026/2611-第十一周.md",
