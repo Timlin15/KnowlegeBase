@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -277,8 +277,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "53928517ff634671",
+  "active": "0bc0d4ee79c72073",
   "lastOpenFiles": [
+    "领域知识/强化学习/Model free 基础方法.md",
     "领域知识/强化学习/深度 RL.md",
     "领域知识/强化学习/Bellman 公式.md",
     "领域知识/强化学习/CS285/Imitation Learning.md",
@@ -312,7 +313,6 @@
     "实践/比赛/LLM-REC/LLM-REC 备忘录.md",
     "实践/比赛/LLM-REC/数据集.md",
     "备忘录/ssh&远程桌面.md",
-    "论文/双臂大模型/pi0.5.md",
     "总结/sid_chat_eval_details.csv",
     "实践/比赛/LLM-REC",
     "quartz/public/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/quartz/content/实践/Lerobot/Lerobot-Policy抽象基类-og-image.webp",
