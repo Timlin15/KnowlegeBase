@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -277,10 +277,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "0bc0d4ee79c72073",
+  "active": "6a9e6ddfcf7e56a8",
   "lastOpenFiles": [
-    "领域知识/强化学习/Model free 基础方法.md",
     "领域知识/强化学习/深度 RL.md",
+    "领域知识/强化学习/Model free 基础方法.md",
     "领域知识/强化学习/Bellman 公式.md",
     "领域知识/强化学习/CS285/Imitation Learning.md",
     "领域知识/强化学习/CS285/Q-learning & Actor-critic.md",
