@@ -104,9 +104,21 @@
               "icon": "lucide-file",
               "title": "WAM 诊断"
             }
+          },
+          {
+            "id": "07d9b017068515ac",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.14.5"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -291,7 +303,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ea2e9c0318c1a042",
+  "active": "07d9b017068515ac",
   "lastOpenFiles": [
     "总结/26组会/触觉 WAM.md",
     "总结/26组会/WAM 诊断.md",
