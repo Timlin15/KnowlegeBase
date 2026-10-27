@@ -92,21 +92,21 @@
             }
           },
           {
-            "id": "ea2e9c0318c1a042",
+            "id": "fff865786b228469",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "碎碎念/我不要成为AI精神病.md",
+                "file": "总结/26组会/WAM 诊断.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "我不要成为AI精神病"
+              "title": "WAM 诊断"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -291,11 +291,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ea2e9c0318c1a042",
+  "active": "6a9e6ddfcf7e56a8",
   "lastOpenFiles": [
     "总结/26组会/WAM 诊断.md",
-    "碎碎念/我不要成为AI精神病.md",
     "总结/26组会/触觉 WAM.md",
+    "碎碎念/我不要成为AI精神病.md",
     "总结/26组会",
     "论文/世界动作模型WAM浅析.md",
     "领域知识/强化学习/深度 RL.md",
