@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实践/Physical Harness/灵巧手Physical Harness.md",
+                "file": "实践/Physical Harness/灵巧手 Physical Harness.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "灵巧手Physical Harness"
+              "title": "灵巧手 Physical Harness"
             }
           },
           {
@@ -120,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -306,12 +306,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ed37aef9bb9b154c",
+  "active": "6a9e6ddfcf7e56a8",
   "lastOpenFiles": [
+    "实践/Physical Harness/灵巧手 Physical Harness.md",
     "总结/26组会/触觉 WAM.md",
     "总结/26组会/WAM 诊断.md",
     "备忘录/通天代来了.md",
-    "实践/Physical Harness/灵巧手Physical Harness.md",
     "实践/Physical Harness",
     "碎碎念/我不要成为AI精神病.md",
     "总结/26组会",
