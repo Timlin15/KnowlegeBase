@@ -3,5 +3,6 @@
   "nativeMenus": true,
   "baseFontSize": 16,
   "accentColor": "",
-  "interfaceFontFamily": ""
+  "interfaceFontFamily": "",
+  "showRibbon": true
 }
