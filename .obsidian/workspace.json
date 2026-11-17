@@ -105,7 +105,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -238,9 +239,10 @@
   },
   "active": "6a9e6ddfcf7e56a8",
   "lastOpenFiles": [
+    "总结/SIMPLE 触觉适配.md",
+    "总结/26组会/WAM 诊断.md",
     "实践/Physical Harness/灵巧手 Physical Harness.md",
     "总结/26组会/触觉 WAM.md",
-    "总结/26组会/WAM 诊断.md",
     "备忘录/通天代来了.md",
     "实践/Physical Harness",
     "碎碎念/我不要成为AI精神病.md",
@@ -253,7 +255,6 @@
     "领域知识/强化学习/CS285/Q-learning & Actor-critic.md",
     "总结/Codec设计.md",
     "总结/灵巧手LAM概览.md",
-    "总结/SIMPLE 触觉适配.md",
     "领域知识/模型知识/Diffusion & Flow model.md",
     "总结/WAM open question.md",
     "领域知识/模型知识/Transformer/CS336 Assignment 1.md",
